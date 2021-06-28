@@ -1,0 +1,85 @@
+.link-options-container {
+  width: 100%;
+  margin-bottom: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: opacity 500ms;
+
+  &.flex-column {
+    margin: 3rem 0;
+    flex-direction: column;
+  }
+
+  .waterfall {
+    margin-top: 3rem;
+  }
+
+  &.expanded {
+    display: flex;
+  }
+  
+  &.unexpanded {
+    display: none;
+  }
+  
+  .option-button {
+    font-family: "Baloo Thambi 2" !important;
+    background-color: transparent !important;
+    cursor: pointer !important;
+    padding: 5px 12px 5px 12px !important;
+    height: 40px !important;
+    border-radius: 20px 0px !important;
+    font-weight: 500 !important;
+    transition: all 0.5s !important;
+  
+    &:hover {
+      color: #817ad1 !important;
+      background-color: white !important;
+    }
+  }
+  
+  .go-rogue-button {
+    font-family: "Baloo Thambi 2" !important;
+    background-color: transparent !important;
+    cursor: pointer !important;
+    padding: 5px 12px 5px 12px !important;
+    height: 40px !important;
+    border-radius: 20px 0px !important;
+    font-weight: 500 !important;
+    transition: all 0.5s !important;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    &:hover {
+      color: #817ad1 !important;
+      background-color: white !important;
+    }
+
+    button.ant-switch {
+      margin-right: 0.5rem;
+      background-color: white;
+      border: unset;
+      box-shadow: unset;
+      border: 1px solid #7372C4;
+      height: 18px;
+
+      .ant-switch-handle::before{
+        background-color:  #7372C4;
+      }
+    }
+
+    
+  }
+  
+  .home-page {
+    color: white !important;
+    border: 2px solid white !important;
+  }
+
+  .step-3 {
+    color: #817ad1 !important;
+    border: 2px solid #817ad1 !important;
+  }
+}

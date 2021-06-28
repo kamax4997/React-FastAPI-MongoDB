@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: chalk;
+  src: url("./components/MainPage/Chalkduster.woff");
+}
+@import "antd/dist/antd.css";
+
+.root {
+  height: 100%;
+}
+.App {
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  background: transparent
+    linear-gradient(
+      90deg,
+      #49be9f 0%,
+      #57baa1 20%,
+      #6d6fbf 48%,
+      #817ad1 67%,
+      #e98fb9 100%
+    )
+    0% 0% no-repeat padding-box;
+}

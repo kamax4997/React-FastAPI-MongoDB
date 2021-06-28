@@ -1,0 +1,29 @@
+.collabsed-map{
+    height: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+
+    .collapsed-button{
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 15px;
+        position: absolute;
+        transform-origin: 0 0;
+        transform: rotate(90deg);
+        top: 50%;
+        right: -135px;
+        cursor: pointer;
+
+        .text-collapse{
+            font-size: 16px;
+            font-weight: normal;
+            font-family: 'Baloo Thambi 2', cursive;
+            color: #000;
+
+        }
+    }
+}

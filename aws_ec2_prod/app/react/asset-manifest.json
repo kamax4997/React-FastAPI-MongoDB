@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.75c3d52b.chunk.css",
+    "main.js": "./static/js/main.3a761289.chunk.js",
+    "main.js.map": "./static/js/main.3a761289.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.0396ec40.js",
+    "runtime-main.js.map": "./static/js/runtime-main.0396ec40.js.map",
+    "static/css/2.2df2c6be.chunk.css": "./static/css/2.2df2c6be.chunk.css",
+    "static/js/2.cbb670d5.chunk.js": "./static/js/2.cbb670d5.chunk.js",
+    "static/js/2.cbb670d5.chunk.js.map": "./static/js/2.cbb670d5.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.2df2c6be.chunk.css.map": "./static/css/2.2df2c6be.chunk.css.map",
+    "static/css/main.75c3d52b.chunk.css.map": "./static/css/main.75c3d52b.chunk.css.map",
+    "static/js/2.cbb670d5.chunk.js.LICENSE.txt": "./static/js/2.cbb670d5.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/Chalkduster.5f49be3e.woff",
+    "static/media/okta-sign-in.min.css": "./static/media/yubikeyDemo.5ebed9d6.png",
+    "static/media/caution.78776264.svg": "./static/media/caution.78776264.svg",
+    "static/media/children.77fe27b4.svg": "./static/media/children.77fe27b4.svg",
+    "static/media/copy.7a2e3bc1.svg": "./static/media/copy.7a2e3bc1.svg",
+    "static/media/modalApiBuilder.scss": "./static/media/volume.c15159d5.svg",
+    "static/media/font-awesome.min.css": "./static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/politics.e22b776e.svg": "./static/media/politics.e22b776e.svg",
+    "static/media/promotions.e3cc9dad.svg": "./static/media/promotions.e3cc9dad.svg",
+    "static/media/work.798011f9.svg": "./static/media/work.798011f9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0396ec40.js",
+    "static/css/2.2df2c6be.chunk.css",
+    "static/js/2.cbb670d5.chunk.js",
+    "static/css/main.75c3d52b.chunk.css",
+    "static/js/main.3a761289.chunk.js"
+  ]
+}

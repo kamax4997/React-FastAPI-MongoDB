@@ -1,0 +1,294 @@
+.api-modal {
+    width: 100% !important;
+
+    .ant-modal-body {
+        @media only screen and (min-width: 850px) {
+            min-height: 95vh !important;
+            max-height: 95vh !important;
+        }
+    }
+
+    .ant-modal-content{
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    
+    &-wrapper{
+        margin-top: 10px;
+
+        .header {
+            margin-bottom: 10px;
+
+            @media only screen and (max-width: 750px) {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .api-button {
+            font-family: "Baloo Thambi 2" !important;
+            background: linear-gradient(to right,#146FE2, #0fe794);
+            color: white !important;
+            cursor: pointer !important;
+            width: 140px !important;
+            height: 40px !important;
+            border-radius: 20px 0px !important;
+            font-weight: 500 !important;
+            transition: all 0.5s !important;
+            margin-bottom: 20px;
+    
+            &:hover {
+                background: linear-gradient(to right,#146FE2, #0fe794);
+                color: white !important;
+            }
+            &:focus {
+                background: linear-gradient(to right,#146FE2, #0fe794);
+                color: white !important;
+            }
+
+            @media only screen and (max-width: 420px) {
+                width: 120px !important;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+
+            @media only screen and (min-width: 421px) and (max-width: 750px) {
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+
+            @media only screen and (min-width: 751px) and (max-width: 850px) {
+                width: 120px !important;
+            }
+        }
+
+        .download-button {
+            padding: 16px;
+            font-family: "Baloo Thambi 2" !important;
+            font-size: 16px !important;
+            font-weight: 600 !important;
+            color: #000;
+            cursor: pointer;
+
+            &:hover {
+                color: #146FE2;
+            }
+        }
+
+        .table {
+            font-family: "Baloo Thambi 2" !important;
+
+            .ant-table-thead {
+                background: transparent !important;
+                font-weight: 600 !important;
+            }
+            .ant-table-cell {
+                background: transparent !important;
+                border: none !important;
+                font-size: 15px !important;
+                color: #000 !important;
+            }
+
+            .colorGray {
+                color: #726B6B !important;
+            }
+        }
+
+        .left-column {
+            margin-top: 25px !important;
+
+            @media only screen and (max-width: 750px) {
+                width: 100% !important;
+                display: flex !important;
+                justify-content: center !important;
+            }
+        }
+
+        .right-column {
+            padding: 16px;
+        }
+
+        .jump-video {
+            margin-top: 20px;
+
+            a {
+                font-family: "Baloo Thambi 2";
+                font-weight: 600;
+                color: #000;
+                padding-right: 15px;
+            }
+        }
+
+        .video-react {
+            border-top-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            
+            .video-react-video, .video-react-poster, .video-react-control-bar {
+                border-bottom-right-radius: 25px;
+            }
+            .video-react-video, .video-react-poster {
+                border-top-left-radius: 25px;
+            }
+
+            .video-react-control-bar {
+                padding: 0 20px !important;
+                padding-top: 5px !important;
+                height: 40px !important;
+            }
+
+            .video-react-control {
+                &:hover, &:focus {
+                    text-shadow: none;
+                }
+            }
+
+            .video-react-progress-control {
+                padding-top: 7px !important;
+                
+                .video-react-slider,
+                .video-react-progress-holder,
+                .video-react-play-progress,
+                .video-react-play-progress div,
+                .video-react-load-progress,
+                .video-react-load-progress div {
+                    background-color: #EEEBFF !important;
+                    height: 8px !important;
+                    border-radius: 25px !important;
+
+                    &:focus {
+                        box-shadow: none !important;
+                    }
+                }
+
+                .video-react-play-progress,
+                .video-react-play-progress div {
+                    left: -1px !important;
+                    background-color: #7372C4 !important;
+                }
+
+                .video-react-play-progress {
+                    &::before {
+                        content: url('../../../img/video-controller/play-progress.svg') !important;
+                        top: -15.5px !important;
+                        right: -30px !important;
+                    }
+                    &::after {
+                        display: none !important;
+                    }
+                }
+            }
+
+            .video-react-volume-menu-button-vertical {
+                .video-react-volume-bar, .video-react-volume-level {
+                    width: 8px !important;
+                    border-radius: 25px !important;
+
+                    &:focus {
+                        box-shadow: none !important;
+                    }
+                }
+
+                .video-react-volume-bar {
+                    background-color: #EEEBFF !important;
+                }
+
+                .video-react-volume-level {
+                    background-color: #7372C4 !important;
+
+                    &::before {
+                        content: url('../../../img/video-controller/volume-level.svg') !important;
+                        top: -20px;
+                        left: -23px;
+                    }
+                }
+            }
+
+            .video-react-time-control {
+                font-family: "Baloo Thambi 2" !important;
+                font-size: 16px !important;
+                position: absolute;
+            }
+
+            .video-react-duration, .video-react-current-time {
+                bottom: 13px;
+            }
+            .video-react-duration {
+                right: 130px;
+            }
+            .video-react-current-time {
+                left: 48px;
+            }
+
+            .video-react-playback-rate-value {
+                font-family: "Baloo Thambi 2" !important;
+                font-size: 16px !important;
+                line-height: 2em !important;
+            }
+
+            .video-react-menu-content {
+                bottom: 2.5em !important;
+            }
+            .video-react-menu-item {
+                font-family: "Baloo Thambi 2" !important;
+            }
+
+            .video-react-selected {
+                border-top-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+
+            .video-react-big-play-button {
+                background-color: white !important;
+                border-radius: 50%;
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+
+            .video-react-big-play-button-center {
+                font-size: unset !important;
+                line-height: unset !important;
+
+                &::before {
+                    content: url('../../../img/video-controller/play.svg') !important;
+                    top: 10px;
+                    left: 1.5px;
+                }
+            }
+
+            .video-download {
+                &::before {
+                    content: url('../../../img/video-controller/download.svg');
+                    top: 2px;
+                }
+            }
+
+            .video-react-playing {
+                &::before {
+                    content: url('../../../img/video-controller/pause.svg') !important;
+                    z-index: 99;
+                }
+            }
+
+            .video-react-paused {
+                &::before {
+                    content: url('../../../img/video-controller/play-white.svg') !important;
+                    z-index: 99;
+                }
+            }
+
+            .video-react-fullscreen-control {
+                &::before {
+                    content: url('../../../img/video-controller/full-size.svg') !important;
+                }
+            }
+
+            .video-react-volume-menu-button {
+                &::before {
+                    content: url('../../../img/video-controller/volume.svg') !important;
+                }
+            }
+        }
+    }
+    
+}
+

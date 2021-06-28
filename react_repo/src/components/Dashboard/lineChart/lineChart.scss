@@ -1,0 +1,101 @@
+.collabsed-chart{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .collapsed-button{
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 15px;
+        position: absolute;
+        transform-origin: 0 0;
+        transform: rotate(90deg);
+        top: 50%;
+        cursor: pointer;
+
+        .text-collapse{
+            font-size: 16px;
+            font-weight: normal;
+            font-family: 'Baloo Thambi 2', cursive;
+            color: #000;
+        }
+    }
+    .header-chart{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .title-chart{
+            font: 30px 'Baloo Thambi 2', cursive;
+            color: #000;
+        }
+        .filter-chart{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .filter-title{
+                font: 16px 'Baloo Thambi 2', cursive;
+                color: #8F8F8F;
+            }
+            .select-filter{
+                .ant-select-selector{
+                    background-color: #F5F5F5 !important;
+                    border-radius: 13px !important;
+                    font-size: 13px !important;
+                    color: #8F8F8F ;
+                }
+            }
+        }
+    }
+    .line-chart{
+        width: 400px;
+        height: 100%;
+        font-family: "Baloo Thambi 2", cursive;
+    }
+}
+
+// style of the tooltip
+.wrapper-tooltip{
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    .title-tooltip{
+        font: 20px 'Baloo Thambi 2';
+        color: #000;
+    }
+    .value-tooltip{
+        font: 50px 'Baloo Thambi 2';
+        line-height: 0.85 !important;
+    }
+    .name-tooltip{
+        font: 15px 'Baloo Thambi 2';
+        color: #6D6D6D;
+    }
+}
+.wrapper-tooltip.color2{
+    border: 2px solid #ff00b2;
+
+    .value-tooltip{
+        color: #ff00b2;
+    }
+}
+.wrapper-tooltip.color1{
+    border: 2px solid #00d4ff;
+
+    .value-tooltip{
+        color: #00d4ff;
+    }
+}

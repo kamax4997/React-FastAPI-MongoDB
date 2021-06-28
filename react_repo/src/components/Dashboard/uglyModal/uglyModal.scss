@@ -1,0 +1,32 @@
+.ugly-modal{
+  top: 70px !important;
+  background: transparent;
+  .ant-modal-content {
+    background: transparent !important;
+    border-radius: 20px;
+  }
+  .ant-modal-body {
+    background: linear-gradient(107.56deg, #f605d6 0%, #14e290 100%);
+    text-align: center;
+    border-radius: 20px;
+    min-height: 43em;
+
+    .title-modal {
+      font: 30px "Baloo Thambi 2";
+      color: #000;
+    }
+
+    .wrapper-modal {
+      margin-top: 30px;
+    }
+  }
+
+  .info-container {
+    margin-top: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+}

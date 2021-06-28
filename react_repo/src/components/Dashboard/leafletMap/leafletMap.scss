@@ -1,0 +1,62 @@
+.leaflet-container {
+    height: 100%;
+    border-radius: 10px;
+}
+.leaflet-div-marker {
+    background: #FFFFFF !important;
+    padding: 5px;
+    border-radius: 10px;
+}
+// Override .leaflet-div-icon to make the custom icon more clear
+.leaflet-div-icon {
+    background: transparent !important;
+    border-color: transparent !important;
+}
+.leaflet-tooltip-table {
+    padding: 5px;
+    font-family: "Baloo Thambi 2", cursive !important;
+}
+.collabsed-map{
+    height: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+
+    .collapsed-button{
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 15px;
+        position: absolute;
+        transform-origin: 0 0;
+        transform: rotate(90deg);
+        top: 50%;
+        right: -135px;
+        cursor: pointer;
+
+        .text-collapse{
+            font-size: 16px;
+            font-weight: normal;
+            font-family: 'Baloo Thambi 2', cursive;
+            color: #000;
+
+        }
+    }
+}
+.leaflet-icon-wrap {
+    position: relative;
+}
+.leaflet-icon-counter {
+    position: absolute;
+    background: #ffffff;
+    padding: 1px 4px;
+    border-radius: 50%;
+    top: -15px;
+    right: -21px;
+    font-weight: 600;
+    font-family: "Baloo Thambi 2", cursive;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
+    font-size: 13px;
+}

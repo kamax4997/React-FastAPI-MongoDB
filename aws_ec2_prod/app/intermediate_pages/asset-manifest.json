@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cdn/intermediate-pages/static/css/main.08765958.chunk.css",
+    "main.js": "/cdn/intermediate-pages/static/js/main.c0d9c7ae.chunk.js",
+    "main.js.map": "/cdn/intermediate-pages/static/js/main.c0d9c7ae.chunk.js.map",
+    "runtime-main.js": "/cdn/intermediate-pages/static/js/runtime-main.5aa5d5c8.js",
+    "runtime-main.js.map": "/cdn/intermediate-pages/static/js/runtime-main.5aa5d5c8.js.map",
+    "static/js/2.bed8a9dc.chunk.js": "/cdn/intermediate-pages/static/js/2.bed8a9dc.chunk.js",
+    "static/js/2.bed8a9dc.chunk.js.map": "/cdn/intermediate-pages/static/js/2.bed8a9dc.chunk.js.map",
+    "index.html": "/cdn/intermediate-pages/index.html",
+    "static/css/main.08765958.chunk.css.map": "/cdn/intermediate-pages/static/css/main.08765958.chunk.css.map",
+    "static/js/2.bed8a9dc.chunk.js.LICENSE.txt": "/cdn/intermediate-pages/static/js/2.bed8a9dc.chunk.js.LICENSE.txt",
+    "static/media/caution.78776264.svg": "/cdn/intermediate-pages/static/media/caution.78776264.svg",
+    "static/media/children.77fe27b4.svg": "/cdn/intermediate-pages/static/media/children.77fe27b4.svg",
+    "static/media/politics.e22b776e.svg": "/cdn/intermediate-pages/static/media/politics.e22b776e.svg",
+    "static/media/promotions.e3cc9dad.svg": "/cdn/intermediate-pages/static/media/promotions.e3cc9dad.svg",
+    "static/media/work.798011f9.svg": "/cdn/intermediate-pages/static/media/work.798011f9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5aa5d5c8.js",
+    "static/js/2.bed8a9dc.chunk.js",
+    "static/css/main.08765958.chunk.css",
+    "static/js/main.c0d9c7ae.chunk.js"
+  ]
+}

@@ -1,0 +1,27 @@
+.form-final-step{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .form-field{
+        width: 100%;
+
+        .input1{
+            width: 100%;
+            background-color: #F5F5F5;
+            border-radius: 20px !important;
+            border: none;
+            color: #8F8F8F;
+        }
+    }
+    .button-submit{
+        width: fit-content;
+        font: 14px "Baloo Thambi 2";
+        color: #fff;
+
+        &:hover{
+            background: linear-gradient(to right,rgba(20, 111, 226, 0.95), rgba(15, 231, 148, 0.95)) !important;
+        }
+    }
+}

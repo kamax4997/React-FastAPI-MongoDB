@@ -1,0 +1,73 @@
+.step1-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .input-wrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        .form-input{
+            width: 100%;
+            .create-link-input{
+                width: 100%;
+                height: 45px !important;
+                border-radius: 20px !important;
+                padding-right: 150px;
+                input{
+                    height: 45px !important;
+                    background-color: #F5F5F5;
+                    border: none !important;
+                }
+                &:focus{
+                    box-shadow: none !important;
+                    border-width: 2px !important;
+                }
+                .ant-input-group-addon{
+                    border-radius: 0 20px 20px 0 !important;
+                }
+            }
+        }
+        .button-url{
+            position: absolute;
+            top: 36px;
+            right: 8px;
+            background-color: #CBCBCB;
+            height: 34px;
+            font: 13px "Baloo Thambi 2";
+            color: #FFFFFF;
+
+            .link-icon{
+                display: none;
+                margin-right: 5px;
+            }
+            
+        }
+        .button-url.correct-url{
+            background: linear-gradient(to right,rgba(20, 111, 226, 0.95), rgba(15, 231, 148, 0.95));
+            height: 36px !important;
+            top: 34px !important;
+
+            .link-icon{
+                display: inline !important;
+            }
+        }
+    }
+    .button-submit{
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        .text-button{
+            font: 14px "Baloo Thambi 2";
+            color: #fff;
+        }
+    }
+}
+
+
+
+

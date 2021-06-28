@@ -1,0 +1,158 @@
+.modal-detail-link{
+  top: 70px !important;
+  background: transparent;
+  .ant-modal-content {
+    background: transparent !important;
+    border-radius: 20px;
+  }
+  .ant-modal-body {
+    background: linear-gradient(107.56deg, #13c47f 0%, #146fe2 100%);
+    text-align: center;
+    border-radius: 20px;
+    min-height: 43em;
+
+    .title-modal {
+      font: 30px "Baloo Thambi 2";
+      color: #000;
+    }
+
+    .wrapper-modal {
+      margin-top: 30px;
+    }
+  }
+
+  .info-container {
+    margin-top: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+}
+.ant-modal-mask{
+  background: linear-gradient(modal-detail-linkto right,rgba(20, 111, 226, 0.95), rgba(15, 231, 148, 0.95));
+}
+.close-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  background-color: #F5F5F5;
+  border: none;
+  .close-icon{
+    transition: transform .5s ease-in-out;
+  }
+  &:hover{
+    background-color: #ebebeb;
+    .close-icon{
+      transform: rotate(360deg);
+      color: #000;
+    }
+  }
+}
+
+.detail-links {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: "Baloo Thambi 2", cursive;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  .label-link {
+    color: #f0f0f0;
+    text-align: left;
+    padding-left: 2px;
+  }
+
+  .wrapper-link {
+    width: 100%;
+    height: 37px;
+    background-color: #fff;
+    border: 1px solid #3e40425d;
+    padding: 0 2px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .link-text {
+      color: #1b66d9;
+      font-size: 15px !important;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .button-copy {
+      background: linear-gradient(
+                      to right,
+                      rgba(20, 111, 226, 0.95),
+                      rgba(15, 231, 148, 0.95)) !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+.wrapper-link {
+  border-radius: 1rem;
+  svg {
+    fill: rgb(253, 253, 252) !important;
+  }
+}
+.chart-map {
+  margin-top: 4.0em !important;
+  position: relative;
+  background: linear-gradient(107.56deg, #13c47f 0%, #146fe2 100%);
+}
+.chart-map .col {
+  border-radius: 20px;
+}
+.chart-map .map {
+  position: relative;
+  background: #fff;
+  padding: 20px 20px;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  margin-left: 0px;
+}
+.chart-map .map .map__item {
+  height: 40vh;
+  border-radius: 20px;
+}
+.chart-map .schedule {
+  position: relative;
+  background: #fff;
+  padding: 20px 20px;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  margin-right: 5px;
+}
+.chart-map .schedule .chart-wrap {
+  height: 40vh;
+  border-radius: 20px;
+  top: 0px;
+  left: -8px;
+  position: relative;
+}
+
+.col-short-link {
+  width: 30%;
+  padding-right: 10px;
+}
+.col-long-link {
+  width: 60%;
+}
+
+.col-link-actions {
+  width: 10%;
+
+  .link_actions {
+    padding-top: 30px;
+  }
+  .link_actions .item {
+    color: #F5F5F5;
+  }
+}

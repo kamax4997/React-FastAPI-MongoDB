@@ -1,0 +1,126 @@
+.modal-new-link{
+    width: 820px !important;
+    .ant-modal-content{
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .ant-modal-body{
+        .mt-container{
+            margin-top:30px;
+        }
+        // height: 720px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .input-utm{
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            font-family: "Baloo Thambi 2"!important;
+            border: 2px solid #D0D1D6;
+            padding: 9px 0;
+            padding-left: 15px;
+        }
+        .btn-copy{
+            min-height: 40px;
+            border: none;
+            color: #ffffff;
+            font-family: "Baloo Thambi 2"!important;
+            font-size: 17px;
+            background: #7077C1;
+            border-top-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .txt-right{
+            text-align: right;
+        }
+        .mb-5{
+            margin-bottom: 30px;
+        }
+        .my-10{
+            margin:0 10px;
+        }
+        .ml-10{
+            margin-left:10px;
+        }
+        .my-auto{
+            margin: auto 0;
+        }
+        .pl-15{
+            padding-left: 15px;
+        }
+        .txt-center{
+            text-align: center;
+        }
+        .title-modal{
+            font: 30px "Baloo Thambi 2";
+            color: #000;
+        }
+        .clr-black{
+            font-family: "Baloo Thambi 2"!important;
+            color: #000!important;
+        }
+        .text-modal{
+            font-family: "Baloo Thambi 2"!important;
+            color: #7F83A1!important;
+        }
+        .wrapper-modal{
+            width: 85%;
+            margin-top: 30px;
+
+            .steps-modal{
+                width: 80%;
+                position: absolute;
+                bottom: 50px;
+
+                .ant-steps-item-process .ant-steps-item-icon{
+                    background: linear-gradient(to right,#146FE2, #0fe794);
+                }
+                .ant-steps-item-wait .ant-steps-item-icon{
+                    background-color: #EEEEEE;
+                }
+                .ant-steps-item-finish .ant-steps-item-icon {
+                    background-color: #146FE2;
+                    color: #fff;
+
+                    .ant-steps-icon{
+                        color: #fff;
+                    }
+                }
+                .ant-steps-item-finish >
+                .ant-steps-item-container > 
+                .ant-steps-item-tail::after{
+                    background: linear-gradient(to left,#146FE2, #0fe794);
+                    height: 3px;
+                }
+            }
+        }
+        .wrapper-final{
+            margin-top: 50px;
+            width: 60%;
+        }
+    }
+    
+}
+
+.close-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-top-left-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    top: 5px!important;
+    background-color: #D0D1D6!important;
+    border: none;
+    .close-icon{
+        transition: transform .5s ease-in-out;
+        color: #ffffff;
+    }
+    &:hover{
+        background-color: #ebebeb;
+        .close-icon{
+            transform: rotate(360deg);
+            color: #000;
+        }
+    }
+}

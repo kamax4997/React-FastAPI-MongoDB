@@ -1,0 +1,92 @@
+.input-wrapper {
+  margin-top: 1.2rem;
+  width: 100%;
+  min-width: 300px;
+  max-width: 47.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .form-input {
+    width: 100%;
+
+    .create-link-input {
+      --custom-height: 48px;
+      height: var(--custom-height) !important;
+      border-radius: calc(var(--custom-height) / 2) 0px;
+      padding-right: 82px;
+      padding-left: 5rem;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  }
+
+  .button-wrapper {
+    // margin-left: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+
+    .options-button {
+      position: relative;
+      top: 4px;
+      right: 4px;
+
+      background-color: #eeebff;
+      border: unset;
+      width: 97px;
+      height: calc(100% - 15%);
+
+      font-size: 13px;
+      font-weight: 600;
+      color: #7372c4;
+      font-family: "Baloo Thambi 2";
+      border-top-left-radius: 20px !important;
+      border-bottom-right-radius: 20px !important;
+    }
+    .shorten-button {
+      position: relative;
+      top: 4px;
+      right: 4px;
+
+      background-color: #cbcbcb;
+      width: 97px;
+      height: calc(100% - 15%);
+
+      font-size: 13px;
+      font-weight: 600;
+      color: #ffffff;
+      font-family: "Baloo Thambi 2";
+      border-top-left-radius: 20px !important;
+      border-bottom-right-radius: 20px !important;
+    }
+    .shorten-button.correct-url {
+      background: transparent linear-gradient(90deg, #b14abe 0%, #9090e9 100%)
+        0% 0% no-repeat padding-box;
+    }
+  }
+}
+
+
+.expandAnimation {
+  padding-top: 3.5rem;
+  transition: padding-top 500ms;
+}
+
+.unexpandAnimation {
+  animation: unexpand 500ms;
+}
+
+@keyframes unexpand {
+  from {
+    padding-top: 3.5rem;
+  }
+
+  to {
+    padding-top: 0rem;
+  }
+}

@@ -1,0 +1,110 @@
+.option-modal{
+    // width: 640px !important;
+    font-family: "Baloo Thambi 2" !important;
+
+    .title-icon{
+        color: #7372C4;
+        font-size: 1.75rem;
+    }
+
+    .modal-controls{
+        margin-top: auto;
+        display: flex;
+        gap: 2rem;
+
+        button {
+            border-radius: 15px 0 !important;
+            width: 7rem;
+            height: 2.25rem;
+            font-weight: 500;
+            border: unset;
+        }
+
+        .ok-button {
+            background-color: #7372C4;
+            color: white;
+        }
+
+        .cancel-button {
+            color: #7F83A1;
+            background-color: #FFF3F3;
+        }
+    }
+
+
+    .ant-modal-content {
+        border-radius: 25px 0;
+    }
+    
+    .ant-modal-body{
+        // height: 720px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        .title-modal{
+            font: 30px "Baloo Thambi 2";
+            color: #000;
+        }
+        
+        .wrapper-modal{
+            width: 85%;
+            margin-top: 30px;
+
+            .steps-modal{
+                width: 80%;
+                position: absolute;
+                bottom: 50px;
+
+                .ant-steps-item-process .ant-steps-item-icon{
+                    background: linear-gradient(to right,#146FE2, #0fe794);
+                }
+                .ant-steps-item-wait .ant-steps-item-icon{
+                    background-color: #EEEEEE;
+                }
+                .ant-steps-item-finish .ant-steps-item-icon {
+                    background-color: #146FE2;
+                    color: #fff;
+
+                    .ant-steps-icon{
+                        color: #fff;
+                    }
+                }
+                .ant-steps-item-finish >
+                .ant-steps-item-container > 
+                .ant-steps-item-tail::after{
+                    background: linear-gradient(to left,#146FE2, #0fe794);
+                    height: 3px;
+                }
+            }
+        }
+        .wrapper-final{
+            margin-top: 50px;
+            width: 60%;
+        }
+    }
+    
+}
+.ant-modal-mask{
+    background: linear-gradient(to right,rgba(20, 111, 226, 0.95), rgba(15, 231, 148, 0.95));
+}
+.close-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    background-color: #F5F5F5;
+    border: none;
+    .close-icon{
+        transition: transform .5s ease-in-out;
+    }
+    &:hover{
+        background-color: #ebebeb;
+        .close-icon{
+            transform: rotate(360deg);
+            color: #000;
+        }
+    }
+}

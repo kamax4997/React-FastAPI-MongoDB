@@ -1,0 +1,127 @@
+$small: 300px;
+$medium: 900px;
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  // align-self: center;
+  // justify-content: center;
+  // justify-items: center;
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+.addDomainButton {
+  font-family: "Baloo Thambi 2" !important;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  border: 2px solid white;
+  padding: 5px 12px 5px 12px;
+  height: 40px;
+  border-radius: 20px 0px;
+  font-weight: 500;
+  transition: all 0.5s;
+
+  &:hover {
+    color: #817ad1;
+    background-color: white;
+  }
+}
+
+.textInput {
+  font-family: "Baloo Thambi 2" !important;
+  text-align: center !important;
+  font-weight: 500 !important;
+  font-size: 14px;
+  --custom-height: 48px;
+  height: var(--custom-height) !important;
+  border-radius: calc(var(--custom-height) / 2) 0px !important;
+
+  border-color: #cbcbcb !important;
+
+  &::placeholder {
+    font-weight: 500 !important;
+    color: #8e93aa !important;
+  }
+}
+
+.inputContainer {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  border-radius: 24px 0px;
+  position: relative;
+}
+
+.checkButton {
+  position: absolute !important;
+  top: 4px;
+  right: 4px !important;
+  background-color: #cbcbcb !important;
+  width: 97px !important;
+  height: 41px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  font-family: "Baloo Thambi 2" !important;
+  border-radius: 23px 0px !important;
+  border-color: #cbcbcb !important;
+
+
+ 
+}
+
+.correctUrl {
+  background: linear-gradient(107.56deg, #146fe2 0%, #0fe794 100%) !important;
+}
+
+.instructionsContainer {
+  // height: 125px;
+  // width: 400px;
+  max-width: 400px;
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 24px 0px;
+  font-family: "Baloo Thambi 2";
+
+  @media screen and (max-width: $medium) {
+    width: 300px;
+  }
+
+  .title {
+    padding-top: 1rem;
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .info {
+    padding-left: 2rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0.75rem;
+
+    .labels {
+      display: flex;
+      flex-direction: column;
+      width: 50px;
+    }
+    .values {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+    }
+  }
+
+  .arrow {
+    margin: 0 0.5rem 0 0.5rem;
+    font-size: 0.75rem;
+  }
+}

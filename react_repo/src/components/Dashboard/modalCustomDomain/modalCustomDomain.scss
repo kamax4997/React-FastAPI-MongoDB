@@ -1,0 +1,125 @@
+.modal-new-link {
+  width: 820px !important;
+
+  .ant-modal-body {
+    // height: 720px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title-modal {
+      font: 30px "Baloo Thambi 2";
+      color: #000;
+    }
+
+    .wrapper-modal {
+      width: 85%;
+      margin-top: 30px;
+
+      .steps-modal {
+        width: 80%;
+        position: absolute;
+        bottom: 50px;
+
+        .ant-steps-item-process .ant-steps-item-icon {
+          background: linear-gradient(to right, #146fe2, #0fe794);
+        }
+        .ant-steps-item-wait .ant-steps-item-icon {
+          background-color: #eeeeee;
+        }
+        .ant-steps-item-finish .ant-steps-item-icon {
+          background-color: #146fe2;
+          color: #fff;
+
+          .ant-steps-icon {
+            color: #fff;
+          }
+        }
+        .ant-steps-item-finish
+          > .ant-steps-item-container
+          > .ant-steps-item-tail::after {
+          background: linear-gradient(to left, #146fe2, #0fe794);
+          height: 3px;
+        }
+      }
+    }
+    .wrapper-final {
+      margin-top: 50px;
+      width: 60%;
+    }
+  }
+
+  .content-container {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .horizontal-divider {
+      height: 2px;
+      width: 100%;
+      background-color: #cbcbcb;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .user-custom-domains-container {
+      width: 100%;
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      .no-custom-domains-container {
+        font: 1rem "Baloo Thambi 2";
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border: 1px solid #cbcbcb;
+      color: #cbcbcb;
+
+      }
+
+      .domain-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        max-height: 150px;
+        overflow-y: auto;
+      }
+
+      .section-title {
+        font-family: "Baloo Thambi 2";
+        font-weight: 500;
+        font-size: 1.125rem;
+      }
+    }
+  }
+}
+.ant-modal-mask {
+  background: linear-gradient(
+    to right,
+    rgba(20, 111, 226, 0.95),
+    rgba(15, 231, 148, 0.95)
+  );
+}
+.close-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  background-color: #f5f5f5;
+  border: none;
+  .close-icon {
+    transition: transform 0.5s ease-in-out;
+  }
+  &:hover {
+    background-color: #ebebeb;
+    .close-icon {
+      transform: rotate(360deg);
+      color: #000;
+    }
+  }
+}

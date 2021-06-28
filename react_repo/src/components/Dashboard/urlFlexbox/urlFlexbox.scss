@@ -1,0 +1,134 @@
+.flexOptions {
+  font-size: 11px;
+  display: flex;
+  // justify-content: space-between;
+  margin: 8px 0;
+
+  .list {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+  }
+}
+
+.linkOptionIcons {
+  display: flex;
+  // justify-content: space-between;
+
+  .icon {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    filter: invert(100%) sepia(5%) saturate(505%) hue-rotate(200deg) brightness(95%) contrast(115%);
+    -webkit-filter: invert(100%) sepia(5%) saturate(505%) hue-rotate(200deg) brightness(95%) contrast(115%);
+  }
+}
+
+.linkOptions {
+  min-height: 28px;
+}
+
+.top-margin {
+  margin-top: 10px;
+}
+
+.modal {
+  color: #fff;
+  font-size: 12px !important;
+
+  .list {
+    margin-right: 100px !important;
+    margin-left: 10px;
+    text-align: left;
+  }
+}
+
+.flexboxes {
+    margin-top: 40px !important;
+}
+
+.flexbox .row {
+    margin-top: 4px !important;
+}
+
+.flexbox {
+    float: left;
+    width: 25%;
+}
+
+.flexbox_item {
+    background: linear-gradient(107.56deg, #13c47f 0%, #146fe2 100%);
+    background-size: cover;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    //box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px 7px;
+    position: relative;
+    color: #F5F5F5;
+    cursor: pointer;
+    opacity: 0.95;
+}
+
+.flexbox_item .long-link {
+    white-space: nowrap;
+    overflow: hidden;
+    //width: 29em;
+    text-overflow: ellipsis;
+    min-height: 22px;
+}
+
+.flexbox_item .link-ts {
+    min-height: 22px;
+}
+
+.flexbox_item div.name {
+    color: #F5F5F5;
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.flexbox_item .link_actions {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+/* delete animation */
+
+.scale-out-center {
+	-webkit-animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes scale-out-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-out-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+  }
+  
